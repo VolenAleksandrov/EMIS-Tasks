@@ -36,11 +36,11 @@ Second console application - Calculate 1 000 000 times factorial - unoptimized
 	3. Initialize random class.
 	4. Start a loop with 1 000 000 rounds - external loop.
 		4.1. Get random number from 1 to 10 - "number".
-		4.2. Create a loop that has "number" value rounds. Start from 1. - internal loop
+		4.2. Go to method which create a loop that has "number" value rounds. Start from 1. - internal loop
 			4.2.1. On each round multiply the current factorial value to the number of the current round of the loop.
-			save the value from the multiplying in factorial vaable.
- 			And repeat this until the end of the internal loop. Then we have the value of the factorial(number). end of internal loop
-	4.3. Set factorial value to 1. We set factorial to 1 because we will calculate new factorial. And repeat until the end of the external loop.
+			save the value from the multiplying in factorial variable.
+ 			And repeat this until the end of the internal loop. Then we have the value of the factorial(number). End of internal loop
+			Repeat until the end of the external loop.
 		 
 	5. Stop stopwatch.
 	6. Print execution time.

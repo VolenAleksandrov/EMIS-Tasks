@@ -10,19 +10,19 @@ The program generate Excel file with 100 000 rows of random generated data.
 	Used libraries to create and manage excel spreadsheeds: 
 		EPPlus
 
-	1. Program creates ExcelPackage stream.
+	1. Program creates ExcelPackage.
 	2. Add ExcelWorkSheet to package.
 	3. Customize first header row.
 		3.1. Set bold font style.
 		3.2. Set pattern type to be solid.
 		3.3. Set background color.
-	4. Generates rows with random data and add them to worksheet.
+	4. Generates rows with random data and adds them to worksheet.
 		4.1. Get random name from array.
 		4.2. Get random age.
 		4.3. Get random score.
 		4.4. Add row in worksheet.
 	5. Set font color to odd rows which has values.
-	6. Add formula to cell. formula calculates average form given cell to given cell.
+	6. Add a formula to a cell. The formula calculates average value of the data from submitted first cell to submitted last cell.
 	7. Save the file.
 
 Second console application - Calculate 1 000 000 times factorial - unoptimized
@@ -34,13 +34,14 @@ Second console application - Calculate 1 000 000 times factorial - unoptimized
 	2. Initialize factorial variable.
 		2.1. Set factorial value to 1.
 	3. Initialize random class.
-	4. Start a loop that has 1 000 000 rounds.
-		4.1. Get random number from 1 to 10.
-		4.2. Create loop that has "num" value rounds. Starts from 1.
-			4.2.1. On each round multily current factorial value with number of current round of a loop.
- 			And repeat this to the end of a internal loop. Then we have the factorial(num).
-		4.3. Set factorial value to 1. And repeat to the end of a external loop.
-		 We set factorial to 1 because we will calculate new factorial.
+	4. Start a loop with 1 000 000 rounds - external loop.
+		4.1. Get random number from 1 to 10 - "number".
+		4.2. Create a loop that has "number" value rounds. Start from 1. - internal loop
+			4.2.1. On each round multiply the current factorial value to the number of the current round of the loop.
+			save the value from the multiplying in factorial vaable.
+ 			And repeat this until the end of the internal loop. Then we have the value of the factorial(number). end of internal loop
+	4.3. Set factorial value to 1. We set factorial to 1 because we will calculate new factorial. And repeat until the end of the external loop.
+		 
 	5. Stop stopwatch.
 	6. Print execution time.
 
@@ -55,12 +56,13 @@ Third console application - Calculate 1 000 000 times factorial - optimized
 	4. Start a loop with 1 000 000 rounds.
 		4.1. Get random number from 1 to 10.
 		4.2. Call function that calculates factorial.
-			4.2.1. If number is 1 return 1.
-			4.2.2. If we have already calculated factorial of num in array - return it.
-			4.2.3. If we haven`t we calculate it and save the value in the array. 
-			4.2.4. Return the value of factorial of num.
+			4.2.1. If number is 1 - return 1.
+			4.2.2. If we have already calculated the value of factorial(number) in the array - return this value.
+			4.2.3. If we haven`t calculated value of the factorial(number), we calculate it and save the value in the array and return this value.
+		4.3. Repeat this until the end of the loop.
 	5. Stop stopwatch.
 	6. Print execution time.
 	
 
 Author : Volen Aleksandrov
+

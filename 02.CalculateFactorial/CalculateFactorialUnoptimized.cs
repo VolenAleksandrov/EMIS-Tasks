@@ -3,9 +3,8 @@ using System.Diagnostics;
 
 namespace _02.CalculateFactorial
 {
-    class CalculateFactorial
+    class CalculateFactorialUnoptimized
     {
-        public static int[] temp = new int[11];
         public static int operationsCount = 1000000;
 
         static void Main()
@@ -17,10 +16,11 @@ namespace _02.CalculateFactorial
             
             for (int i = 0; i < operationsCount; i++)
             {
-                num = rand.Next(1, 10);
+                num = rand.Next(1, 11);
                 for (int k = 1; k <= num; k++)
                 {
                     factorial *= k;
+                    
                 }
                 factorial = 1;
             }

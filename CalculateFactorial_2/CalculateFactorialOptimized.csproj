@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7D50C849-36CA-4BFC-869E-A21B87296800}</ProjectGuid>
+    <ProjectGuid>{F4D537EE-7495-493B-8055-EE0097D5145E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_02.CalculateFactorial</RootNamespace>
-    <AssemblyName>02.CalculateFactorial</AssemblyName>
+    <RootNamespace>CalculateFactorial_2</RootNamespace>
+    <AssemblyName>CalculateFactorial_2</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalculateFactorial.cs" />
+    <Compile Include="CalculateFactorialOptimized.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

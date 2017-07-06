@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.GenerateExcelFile", "01.GenerateExelFile\01.GenerateExcelFile.csproj", "{2B0B290A-9949-4C5D-919B-3BCA56C4DEC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CalculateFactorial", "02.CalculateFactorial\02.CalculateFactorial.csproj", "{7D50C849-36CA-4BFC-869E-A21B87296800}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CalculateFactorialUnoptimized", "02.CalculateFactorial\02.CalculateFactorialUnoptimized.csproj", "{7D50C849-36CA-4BFC-869E-A21B87296800}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateFactorial_2", "CalculateFactorial_2\CalculateFactorial_2.csproj", "{F4D537EE-7495-493B-8055-EE0097D5145E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateFactorialOptimized", "CalculateFactorial_2\CalculateFactorialOptimized.csproj", "{F4D537EE-7495-493B-8055-EE0097D5145E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
